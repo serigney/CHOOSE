@@ -25,7 +25,7 @@ let vehicle = document.querySelector('.vehicle');
     done.style.display ="none";
 
 headButton.addEventListener('click', function() {
-text.innerHTML = "You were able to find tools and clothing to help you throughtout your journey, now do you take a risk and head towards an abandoned vehicle, or  Go the only safe route and risk encountering more zombies. ";
+text.innerHTML = "You were able to find tools and clothing to help you throughtout your journey, now do you take a risk and head towards an abandoned vehicle (Hover your mouse over the top image), or  Go the only safe route (double click) and risk encountering more zombies. ";
 start.style.display = "none";
 vehicle.style.display ="block";
 choiceAimage.style.display ="block";
@@ -52,7 +52,7 @@ vehicle.addEventListener("mouseenter", function(){
 
 
 exploreButton.addEventListener("click", function(){
-    text.innerHTML = "You’re able to fight off the zombies effectively but the weather is taking a toll on your body. Do you find shelter or have a last stand with the zombies ";
+    text.innerHTML = "You’re able to fight off the zombies effectively but the weather is taking a toll on your body. Do you find shelter or have a last stand with the zombies(Double click the image to have a last stand) ";
     start.style.display = "none";
     fighting.style.display = "block";
     exploreButton.style.display="none";
