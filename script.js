@@ -10,6 +10,7 @@ let text = document.querySelector('.text');
 // html images elements
 let start = document.querySelector('.startZombie');
 let car = document.querySelector('.car');
+car.style.display  = "block";
     
     
 let choiceAimage = document.querySelector('.choiceAimage');
