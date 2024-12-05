@@ -75,6 +75,7 @@ fighting.addEventListener("dblclick", function(){
  text.innerHTML = "Your dead, at least it was a cool death ";
    fighting.style.display = "none";
    done.style.display = "block";
+   done2.style.display = "none";
    
 
 });
