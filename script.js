@@ -29,7 +29,7 @@ let vehicle = document.querySelector('.vehicle');
     done2.style.display ="none";
 
 headButton.addEventListener('click', function() {
-text.innerHTML = "You were able to find tools and clothing to help you throughtout your journey, now do you take a risk and head towards an abandoned vehicle (Hover your mouse over car), or  Go the only safe route (double click) and risk encountering more zombies. ";
+text.innerHTML = "You were able to find tools and clothing to help you throughtout your journey, now do you take a risk and head towards an abandoned vehicle (Hover your mouse over car), or  Go the only safe route (double click) and risk encountering more zombies. <br><br><br><br><br><br><br><br><br><br>";
 console.log("works");
 start.style.display = "none";
 choiceAimage.style.display ="block";
